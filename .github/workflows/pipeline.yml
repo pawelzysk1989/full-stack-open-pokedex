@@ -33,3 +33,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "pz-pokemon-app" #Must be unique in Heroku
           heroku_email: "pawelzysk1989@gmail.com"
+          healthcheck: "https://pz-pokemon-app.herokuapp.com/health"
